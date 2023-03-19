@@ -2,32 +2,138 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #FFFFFF;
+	width: 100%;
 }
 
-#chicken{
-	background-color: #D59898;
-	float: left;
+body{
+	font-family: Arial, Verdana, san-serif;
 }
 
-#beef{
-	background-color: #000C40;
-	float: right;
-}
-
-#sushi{
-	background-color: #2C3A61;
-	float: right;
+.container{
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 7%;
+	margin-right: 5px;
+	position: absolute;
 }
 
 .chick{
 	background-color: #999999;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+
+.bee{
+	background-color: #999999;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+
+.sus{
+	background-color: #999999;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+
+#chicken{
+	background-color: #D59898;
+	width: 30%;
+	float: right;
+	text-align: center;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	border-color: black;
+	font-size: 125%;
+}
+
+#beef{
+	background-color: #C14543;
+	width: 30%;
+	float: right;
+	text-align: center;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	border-color: black;
+	font-size: 125%;
+}
+
+#sushi{
+	background-color: #E5D198;
+	width: 30%;
+	float: right;
+	text-align: center;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	border-color: black;
+	font-size: 125%;
 }
 
 h1{
 	text-align: center;
+	margin-top: 40px;
+	font-size: 175%;
 }
 
-.container{
+p{
+	padding: 10px;
+	clear: right;
+}
 
+@media(min-width: 992px){
+	.chick{
+		width: 31%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.bee{
+		width: 31%;
+		float: left;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+
+	.sus{
+		width: 31%;
+		float: left;
+		margin-left: 1%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.chick{
+		width: 48.5%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.bee{
+		width: 48.5%;
+		float: left;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+
+	.sus{
+		width: 99%;
+		float: left;
+		margin-top: 1%;
+	}
+}
+
+@media(max-width: 767px){
+	.chick{
+		width: 99%;
+		float: left;
+	}
+
+	.bee{
+		width: 99%;
+		float: left;
+	}
+
+	.sus{
+		width: 99%;
+		float: left;
+	}
 }
