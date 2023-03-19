@@ -1,3 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+
+#chicken{
+	background-color: #D59898;
+	float: left;
+}
+
+#beef{
+	background-color: #000C40;
+	float: right;
+}
+
+#sushi{
+	background-color: #2C3A61;
+	float: right;
+}
+
+.chick{
+	background-color: #999999;
+}
+
 h1{
-	color: pink;
+	text-align: center;
+}
+
+.container{
+
 }
